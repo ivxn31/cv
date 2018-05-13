@@ -1,0 +1,165 @@
+body, html{
+	margin:0;
+	padding:0;
+	font-family: Arial;
+	background-color: #f1f1f1;
+	line-height: 1.5;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+h2, h5,h6{
+	font-weight: 400;
+    margin: 10px 0;
+    /*font-size: 30px;*/
+    
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border-style: none;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.text-blue{
+	color:#1e88e5 ;
+}
+
+.large{
+	font-size: 25px;
+}
+.right{
+	margin-right: 10px
+}
+.top{
+	margin-top: 1.6%;
+}
+.language{
+	margin: 1% 2%;
+}
+
+.language img{
+	cursor: pointer;
+}
+.content{
+	width: 100%;
+	margin: auto;
+	display: inline-block;
+}
+.profile{
+	width: 30%;
+	background-color: #fff;
+	float: left;
+	/*margin: 1.6% 2%;*/
+	margin: 0px 2%;
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.photo{
+	position: relative;
+}
+
+.name_profile{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+	color: #1e88e5 ;
+	padding: 0.01em 1.6%;
+}
+
+.container{
+	/*padding: 0.01em 5%;*/
+	padding: 0.01em 16px;
+}
+
+.skill-bar{
+	background-color: #c5c5c5;
+	border-radius: 16px;
+}
+
+.content-bar{
+	color: #fff;
+    background-color: #1e88e5 ;
+    /*background-color: #4caf50 ;*/
+    border-radius: 16px;
+    text-align: center;
+    height: 24px;
+}
+
+.curriculum{
+	width: 65%;
+	height: auto;
+	background-color: #fff;
+	float: left;
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.title{
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-size: 30px;
+}
+
+.place{
+	opacity: 0.60;
+	font-size: 18px;
+}
+
+.date{
+	font-size: 16px;
+	color: #1e88e5 ;
+}
+
+.current{
+	color: #fff;
+	background-color:#1e88e5 ;
+	border-radius: 4px;
+	display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+.hover-opacity:hover {
+    opacity: 0.60;
+    cursor: pointer;
+}
+
+footer{
+	color: #fff;
+	margin-top: 1.6%;
+	text-align: center;
+	background-color:#1e88e5 ;
+	display: block;
+}
+
+@media(max-width: 600px){
+	.profile{
+		width: 95%;
+		float: none;
+		margin: 1.6% 2%;
+	}
+
+	.curriculum{
+		width: 95%;
+		float: none;
+		margin: 8% 2%;
+	}
+}
