@@ -25,6 +25,7 @@ $('#es').click(function(){
 	$('#certificate2').text('Ingenieria en Tecnologías de la Información.');
 	$('#certificate1').text('Técnico Superior Universitario en Tecnologías de la Información');
 	$('#knowledge').text('Otros Conocimientos');
+	$('#comments').text('En caso de no contestar vía telefónica favor de enviar un correo electrónico.');
 	//$('#social_media').text('Encuéntrame en las redes sociales.');
 });
 
@@ -55,5 +56,6 @@ $('#en').click(function(){
 	$('#certificate2').text('Engineering in Information Technologies.');
 	$('#certificate1').text('Senior University Technician in Information Technologies.');
 	$('#knowledge').text('Other Knowledge');
+	$('#comments').text('If you do not answer by phone, please send an email.');
 	//$('#social_media').text('Find me on social media.');
 });
